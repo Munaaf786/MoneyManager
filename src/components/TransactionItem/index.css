@@ -1,0 +1,46 @@
+.transaction-item {
+  display: flex;
+  align-items: center;
+  border: 1px solid #cbd5e1;
+  border-top: none;
+  padding: 12px;
+}
+
+.table-data {
+  color: #475569;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.title {
+  width: 32%;
+}
+
+.amount {
+  width: 30%;
+}
+
+.type {
+  width: 30%;
+}
+
+.delete-button {
+  height: 36px;
+  width: 36px;
+  padding: 5px;
+  flex-shrink: 1;
+  align-self: flex-end;
+  background-color: transparent;
+  border: none;
+}
+
+.delete-image {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .transaction-item {
+    padding: 8px 18px;
+  }
+}
